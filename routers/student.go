@@ -1,7 +1,7 @@
-package route
+package routers
 
 import (
-	"go-pic-tools/controller"
+	"optimus/controller"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,4 +1,4 @@
-package route
+package routers
 
 import (
 	"net/http"
@@ -6,17 +6,18 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func InitRoute(r *gin.Engine) {
+func InitRouter(r *gin.Engine) {
 	r.GET("/", func(ctx *gin.Context) {
 		ctx.HTML(200, "index.html", nil)
 	})
-
-	InitStudentRoute(r)
-	InitClassRoute(r)
 
 	r.GET("/health", func(ctx *gin.Context) {
 		ctx.JSON(http.StatusOK, gin.H{
 			"message": "pong",
 		})
 	})
+
+	// init route
+	InitStudentRoute(r)
+	InitClassRoute(r)
 }

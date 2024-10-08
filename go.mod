@@ -1,4 +1,4 @@
-module go-pic-tools
+module optimus
 
 go 1.22.0
 
