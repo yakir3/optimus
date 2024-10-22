@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"optimus/controller"
+	"optimus-be/controller"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,4 +1,4 @@
-module optimus
+module optimus-be
 
 go 1.22.0
 

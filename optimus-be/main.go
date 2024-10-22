@@ -3,11 +3,11 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 
-	// "optimus/models"
-	"optimus/routers"
-	// "optimus/pkg/logging"
-	// "optimus/pkg/setting"
-	// "optimus/pkg/util"
+	// "optimus-be/models"
+	"optimus-be/routers"
+	// "optimus-be/pkg/logging"
+	// "optimus-be/pkg/setting"
+	// "optimus-be/pkg/util"
 )
 
 // func init() {
